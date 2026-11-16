@@ -4,7 +4,20 @@ Read this guide when the scene includes movement or visible interactions with a 
 
 ## Choose a single moment
 
-Decide whether the image shows anticipation, push-off, flight, landing, or braking. Align the direction of travel, center of mass, supporting points, opposing limb movements, and surface material around that moment. Keep the pose and effects consistent with one phase of the action.
+Choose the phase that defines the requested activity. A jump may show takeoff or landing. A handoff may show shared support or release. Writing may show the pen touching the page during a stroke. Align the body's balance, supporting points, contacts, tools, and materials around that moment.
+
+For scenes with several participants or exchanged objects, coordinate their timing and interactions using [scene-coherence.md](scene-coherence.md).
+
+## General physical details
+
+- Trace weight through the body, held objects, furniture, and receiving surfaces. Adapt balance and support to the activity and the character's anatomy.
+- Show effort locally through appropriate contour changes, compression, stretched fabric, or a firm grip. Scale the effort to the load and movement.
+- Let soft parts, loose clothing, hair, and attached objects follow the initiating movement with plausible delay. Keep attachment points clear.
+- Use moderate effects concentrated around the source of an action. Keep their direction, material, and persistence consistent with the cause and the shared moment.
+- For quiet poses, use subtle support, contact, expression, and lighting to make the scene convincing.
+- For explicitly fantastical actions, establish the requested physical behavior and apply its visible consequences consistently.
+
+## Activity examples
 
 ### Running
 
@@ -25,6 +38,10 @@ Decide whether the image shows anticipation, push-off, flight, landing, or braki
 | Braking or sliding | Show continuing momentum in the body and resistance through the braced leg. Displaced material may collect ahead of the foot or scatter sideways. | Connect the planted foot to the slide mark. Choose the debris direction to match the braking force. |
 | Pushing or lifting | Establish hand and foot support, subtle tension in loaded areas, and a body lean appropriate to the weight. | Emphasize the hand/object and foot/ground contacts. Add surface effects only where the interaction supports them. |
 | Resting or standing | Use the base proportions, a relaxed silhouette, and slight compression through the weight-bearing foot. | Establish a stable contact shadow and quiet surroundings. |
+| Seated conversation | Support the pelvis and body on the chair and connect gestures with the exchange. | Align the body with the seat, feet with the floor where appropriate, and shadows with both receiving surfaces. |
+| Writing or drawing | Place the tool's working tip on the surface during a stroke and support the page or tablet. | Keep the grip, tip, mark, and hand shadow aligned with the same plane. |
+| Pouring or stirring | Match the container angle or utensil movement to the chosen phase of the task. | Show a supported vessel, a coherent liquid path or swirl, and the relevant contact points. |
+| Moving an object together | Coordinate participants' steps, grips, and effort around the shared load. | Keep all grips connected to the same object and show consistent height, orientation, and shadows. |
 
 ## Match effects to the surface
 
@@ -32,6 +49,8 @@ Decide whether the image shows anticipation, push-off, flight, landing, or braki
 - **Grass.** Compress the grass beneath the foot. Add a few disturbed blades or exposed soil where appropriate.
 - **Water.** Place droplets and ripples at the actual contact point. Keep the overlap of water and body readable.
 - **Clean indoor flooring.** Show sole compression, contact shadows, and a few motion marks when helpful. Choose effects consistent with the clean surface.
+- **Tables, paper, and tools.** Concentrate detail on support, working contact, and the material being changed. Match marks, shavings, splashes, or displaced objects to the specific activity.
+- **Synthetic sports tracks.** Use spike contact, subtle sole compression, and restrained motion marks. Match any particles to the actual surface and keep the lane markings readable.
 - **Character cutouts.** Include ground effects according to the requested asset format. When separate character, effect, and shadow layers are requested, or the game supplies its own ground shadows, deliver those elements according to that setup.
 
 ## Keep lighting coherent

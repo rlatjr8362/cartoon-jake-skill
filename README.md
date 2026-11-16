@@ -1,12 +1,18 @@
 # Cartoon Jake
 
-A Codex skill for expressive 2D cartoons with rounded shapes, clean black outlines, and vivid flat colors. It carries the same visual style across new subjects and poses while paying close attention to weight, contact, surface effects, and lighting.
+A Codex skill for expressive 2D cartoons with rounded shapes, clean black outlines, and vivid flat colors. It applies the same visual language across sports, everyday activities, conversation, teamwork, animals, fantasy, and quiet scenes.
+
+The instructions coordinate the entire scene, including background participants, shared objects, physical contact, and lighting.
+
+They also preserve a clear focal subject. An approved close-up keeps its framing and protagonist scale while corrections address supporting details.
 
 ## Usain Bolt's first step
 
-This generated example captures Usain Bolt taking his first step after the starting gun at the World Championships.
+This approved example depicts Usain Bolt taking his first step after the starting gun at the World Championships.
 
 ![Usain Bolt taking his first step from the starting blocks in the Cartoon Jake style, with a Jamaican racing kit, a planted forefoot, and a cast shadow on the track.](examples/usain-bolt-first-step.png)
+
+The close-up makes Bolt the clear protagonist. Smaller background competitors have also left their blocks and begun their first strides. The skill retains this image as a composition reference for protagonist-led scenes and adapts the framing to each request.
 
 The original request, translated into English, was
 
@@ -24,21 +30,64 @@ $skill-installer https://github.com/rlatjr8362/cartoon-jake-skill/tree/main/skil
 
 After installation, invoke `$artifact-template-cartoon-jake` in your next request. The skill's display name is **Cartoon Jake**.
 
+## Default creative direction
+
+| Area | Default |
+| --- | --- |
+| Shared timing | Coordinate participants around the same event, with small natural differences in reaction and pose. |
+| Cartoon exaggeration | Keep balance, weight, contact, and cause and effect believable while exaggerating shape and elasticity. |
+| Supporting participants | Include people or creatures that the situation calls for, following explicit subject counts. |
+| Background detail | Simplify faces and clothing while keeping readable actions, gaze, support, and shadows coherent. |
+| Camera | Make the intended protagonist or group the clear focus while revealing the important action. Preserve approved framing and subject scale during corrections. |
+| Real subjects | Verify defining appearance, representative clothing, equipment, and key actions using relevant reliable references. |
+| Effects | Use moderate, purposeful effects that make effort and movement easy to read. |
+| Review | Inspect the full scene and its readable background participants, then correct material inconsistencies before final delivery. |
+
+Explicit instructions in a request can change these defaults. Specific event years and historical details are researched when they are part of the requested scene.
+
 ## Usage
 
-Describe the subject and action. Add a setting, viewpoint, expression, lighting direction, or transparent background requirement when those details matter.
+Describe who or what is in the scene, what is happening, and the moment you want to capture. Add a setting, expression, camera angle, lighting direction, or transparent background requirement when it matters.
+
+### Sport
 
 ```text
-$artifact-template-cartoon-jake Draw Jake sprinting along a dirt path. Show the force through his planted foot and small puffs of dust kicked up behind him.
+$artifact-template-cartoon-jake Draw the first step after the starting gun at a sprint final. Keep all visible competitors in compatible stages of early acceleration, with small natural differences in their strides.
 ```
+
+### Cooperation and object handling
 
 ```text
-$artifact-template-cartoon-jake Draw a basketball player at the top of a jump. Match the indoor court lighting and place the player's shadow on the floor below.
+$artifact-template-cartoon-jake Draw two friends carrying a wooden table through a doorway. Make their grips, shared load, steps, and the table's angle work together.
 ```
 
-The skill uses the saved references to guide character proportions, line weight, and color treatment. For other subjects, it carries over the cartoon style while retaining their distinctive appearance and clothing.
+### Everyday activities
 
-Its motion guidance covers running, jumping, landing, braking, pushing, and resting. Surface effects adapt to the setting, and the character's shading, contact shadows, and cast shadow share a consistent light source.
+```text
+$artifact-template-cartoon-jake Draw Jake preparing breakfast while a friend hands him a bowl. Show the instant both characters support the bowl, with clear hand contact and coordinated attention.
+```
+
+### Quiet and emotional scenes
+
+```text
+$artifact-template-cartoon-jake Draw a student listening to a friend at a cafe. Use their expressions, gaze, posture, and distance to convey a thoughtful conversation.
+```
+
+### Fantasy
+
+```text
+$artifact-template-cartoon-jake Draw a small wizard lifting a stone with magic while a companion watches. Make the stone's position, the characters' reactions, and the magical light agree.
+```
+
+The skill carries the saved cartoon style across subjects while retaining their defining appearance and clothing. It adapts the physical details to each activity and the requested fictional rules.
+
+## How scene review works
+
+For a race start, all visible competitors should respond to the same signal and fit the brief time elapsed. For a handoff, the participants' hands and the object's position should agree. For a conversation, gaze and gestures should explain who is attending to whom.
+
+Review covers the main subject, interacting props, readable background figures, spatial relationships, and lighting. Focused corrections address material errors while retaining successful visual choices.
+
+For a protagonist-led scene, review also checks that the main subject retains the intended prominence. Background corrections preserve an approved close-up and its dynamic silhouette.
 
 ## Repository layout
 
@@ -57,9 +106,11 @@ cartoon-jake-skill/
         │   ├── preview.png
         │   ├── reference.png
         │   ├── reference-action.png
-        │   └── reference-contact.png
+        │   ├── reference-contact.png
+        │   └── usain-bolt-composition.png
         └── references/
-            └── motion-and-light.md
+            ├── motion-and-light.md
+            └── scene-coherence.md
 ```
 
-The skill folder contains the creation instructions, interface metadata, three visual references, and a template preview. Detailed guidance covers motion, physical contact, and lighting. [Skill instructions](skills/artifact-template-cartoon-jake/SKILL.md) · [Motion and lighting guide](skills/artifact-template-cartoon-jake/references/motion-and-light.md)
+The skill folder includes creation instructions, interface metadata, three style references, an approved composition example, a template preview, and detailed guidance for physical action and scene consistency. [Skill instructions](skills/artifact-template-cartoon-jake/SKILL.md) · [Motion and lighting](skills/artifact-template-cartoon-jake/references/motion-and-light.md) · [Scene coherence](skills/artifact-template-cartoon-jake/references/scene-coherence.md)

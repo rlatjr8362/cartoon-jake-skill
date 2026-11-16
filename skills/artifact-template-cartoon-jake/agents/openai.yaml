@@ -1,7 +1,7 @@
 interface:
   display_name: "Cartoon Jake"
-  short_description: "Expressive cartoons with coherent motion, light, and shadows"
+  short_description: "Consistent cartoon scenes, interactions, motion, and lighting"
   icon_large: "./assets/preview.png"
-  default_prompt: "Use $artifact-template-cartoon-jake to draw Jake sprinting along a dirt path, with a convincing planted foot, trailing dust, and coherent lighting and shadows."
+  default_prompt: "Use $artifact-template-cartoon-jake to draw the scene I describe with consistent character design, believable actions and interactions, and coherent lighting."
 policy:
   allow_implicit_invocation: true
